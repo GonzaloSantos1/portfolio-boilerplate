@@ -1,0 +1,48 @@
+.footer-container {
+  height: 100%;
+  background-color: $text-color;
+  padding: 35px 0 20px 0;
+
+  h2 {
+    background: $gradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  p {
+    color: $white;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+}
+
+.footer-icons a {
+  height: 80px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+/* RESPONSIVE LOGOS FOOTER */
+
+@include desktop {
+  .footer-icons {
+    justify-content: center;
+    a {
+      margin: 10px 20px;
+    }
+  }
+}

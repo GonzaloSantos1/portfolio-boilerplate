@@ -1,0 +1,42 @@
+.first-content {
+  background-color: rgb(238, 237, 234);
+  padding: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  color: $text-color;
+  flex-wrap: wrap;
+  cursor: default;
+  border: none;
+  width: 100%;
+
+  &__text-about {
+    max-width: 750px;
+    margin: 20px 0 10px 0;
+    text-align: center;
+    letter-spacing: -0.2px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__name {
+    max-width: 500px;
+    text-align: center;
+
+    h1,
+    h2 {
+      margin: 0;
+    }
+
+    h2 {
+      font-weight: 900;
+      background: $gradient;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-shadow: 0 0 1px rgba(73, 73, 73, 0.281);
+    }
+
+    h1 {
+      letter-spacing: -1px;
+    }
+  }
+}

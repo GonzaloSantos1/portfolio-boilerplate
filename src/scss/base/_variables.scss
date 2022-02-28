@@ -1,0 +1,32 @@
+//Color
+$blue: #413d4b;
+$white: white;
+$text-color: #202020;
+
+//Sizes
+
+$h1: 60px;
+$h1-tablet-desktop: 100px;
+
+$h2: 25px;
+$h2-tablet-desktop: 55px;
+
+$p: 25px;
+$p-tablet-desktop: 33px;
+//screen-sizes
+$tablet: 768px;
+$desktop: 768px;
+
+//fonts
+$h1-font: 'Josefin Sans', sans-serif;
+$h2-font: 'Lato', sans-serif;
+$p-font: 'Source Sans Pro', sans-serif;
+
+//color gradient
+$gradient: linear-gradient(
+  271deg,
+  #a0e9ff 30%,
+  #a162e8 50%,
+  #f093b0 70%,
+  #edca85 94%
+);

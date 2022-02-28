@@ -1,0 +1,39 @@
+.second-content {
+  background-color: $text-color;
+  color: $white;
+  height: 500px;
+  padding: 100px 0 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  h2 {
+    font-size: 40px;
+    cursor: default;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+
+  &__gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .skills-logo {
+    max-width: 100px;
+    padding: 12px;
+    width: 100%;
+  }
+
+  .javascript {
+    max-width: 84px;
+  }
+
+  .html5 {
+    max-width: 93px;
+  }
+}

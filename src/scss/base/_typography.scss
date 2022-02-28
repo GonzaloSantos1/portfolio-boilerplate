@@ -1,0 +1,53 @@
+// Typography
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Quicksand:wght@400;600&family=Source+Sans+Pro:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+@import './mixins';
+
+h1 {
+  font-family: $h1-font;
+  font-weight: bold;
+  margin: 5px 5px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-family: $h2-font;
+  font-weight: 400;
+  font-size: $h2;
+}
+
+p {
+  font-family: $p-font;
+}
+
+h1 {
+  font-size: $h1;
+  @include tablet {
+    font-size: $h1-tablet-desktop;
+  }
+  @include desktop {
+    font-size: $h1-tablet-desktop;
+  }
+}
+
+h2 {
+  font-size: $h2;
+  @include tablet {
+    font-size: $h2-tablet-desktop;
+  }
+  @include desktop {
+    font-size: $h2-tablet-desktop;
+  }
+}
+
+p {
+  font-size: $p;
+  @include tablet {
+    font-size: $p-tablet-desktop;
+  }
+  @include desktop {
+    font-size: $p-tablet-desktop;
+  }
+}
