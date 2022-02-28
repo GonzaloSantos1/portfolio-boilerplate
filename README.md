@@ -1,16 +1,17 @@
-#BOILERPLATE-SCSS
+#boilerplate-scss
 
 Project basic scss
 
-##Scripts
+##cripts
 
-##Install dependencies
+##install dependencies
+
 $ npm install
 
-##Dist
+##dist
 
 $ npm run build
 
-##Local server
+##local server
 
 $ npm run dev
